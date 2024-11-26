@@ -13,6 +13,9 @@ More will come as Cobblemon adds commands whose hotkeys might be convenient.
 - [Fabric API](https://modrinth.com/mod/fabric-api)
 - Any 1.21.1 compatible [Cobblemon](https://www.cobblemon.com) version (currently v1.6+)
 
+
+**Disclaimer:** This mod does NOT grant the necessary permissions to execute commands. Proper permissions must still be assigned to players in order for the hotkeys to function correctly.
+
 **Note:** The presence of the Cobblemon mod is not mandatory for the correct functioning of this mod, but its absence could lead to the execution of non-existent commands.
 
 ## Download
