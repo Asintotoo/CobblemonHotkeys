@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cobblemonhotkeys",
+  "version": "${version}",
+  "name": "CobblemonHotkeys",
+  "description": "A client-side utility mod designed to execute useful Cobblemon commands with the simple press of a button.",
+  "authors": ["Asintoto"],
+  "contact": {
+    "repo": "https://github.com/Asintotoo/CobblemonHotkeys",
+    "homepage": "https://github.com/Asintotoo/CobblemonHotkeys",
+    "issues": "https://github.com/Asintotoo/CobblemonHotkeys/issues"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/cobblemonhotkeys/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.asintoto.cobblemonhotkeys.client.CobblemonHotkeysClient"
+    ],
+    "main": [
+      "com.asintoto.cobblemonhotkeys.CobblemonHotkeys"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
